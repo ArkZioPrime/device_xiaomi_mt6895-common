@@ -1,5 +1,4 @@
-# ADSP modules
-vendor/lib/rfsa/adsp/libSuperSensor_skel.so
+
 
 # Android-Hardware
 vendor/bin/hw/android.hardware.audio.service.mediatek
@@ -84,9 +83,9 @@ vendor/lib64/soundfx/libswdap.so
 vendor/lib64/soundfx/libswgamedap.so
 vendor/lib64/soundfx/libswvqe.so
 
-# Bluetooth (aptX) - from xaga MIUI V13.2.3.0.TLOCNXM
-lib64/libaptX_encoder.so|6ebdf942fb9e31f3fbe7864303160e5942e301e4
-lib64/libaptXHD_encoder.so|cf184e822e8e659e1dcada9e6409104caabc1751
+# Bluetooth (aptX) - from rubens  MIUI  V13.0.24.0.SLNCNXM
+lib64/libaptX_encoder.so|9e87fed4eac0e9fe428eaf8d0db7a1af89d521e1
+lib64/libaptXHD_encoder.so|043c055498f6e6e2b0564ad35ea17b012844cbce
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
@@ -577,17 +576,11 @@ vendor/etc/camera/125_Latin.png
 vendor/etc/camera/126_Fantasy2.png
 vendor/etc/camera/127_Creamy.png
 vendor/etc/camera/128_Sepia.png
-vendor/etc/camera/CFR_para_HD.bin
-vendor/etc/camera/CFR_para_M.bin
-vendor/etc/camera/CFR_para_T.bin
-vendor/etc/camera/CFR_para_UW.bin
-vendor/etc/camera/CFR_para_W.bin
+vendor/etc/camera/F1_pink.cng
 vendor/etc/camera/ai_scene.bin
-vendor/etc/camera/almalence_sr_params_UW_upscale.config
-vendor/etc/camera/almalence_sr_params_tele.config
-vendor/etc/camera/almalence_sr_params_wide.config
 vendor/etc/camera/anc.bin
 vendor/etc/camera/apu_miai_preview.bin
+vendor/etc/camera/com.xiaomi.dcal.wu.golden
 vendor/etc/camera/deblur_sd_opencl_binary.bin
 vendor/etc/camera/deblur_sd_opencl_params.bin
 vendor/etc/camera/deblur_txt_apu.bin
@@ -600,7 +593,6 @@ vendor/etc/camera/mibokeh_mt6873_opencl.bin
 vendor/etc/camera/mibokeh_mt6873_parameter.bin
 vendor/etc/camera/quantize_mtk_0.00246_1800-360620_singleinput_bs1_1285.dla
 vendor/etc/camera/sceneDetection.xml
-vendor/etc/camera/sr_params.xml
 vendor/etc/camera/svq_cache
 vendor/etc/camera/video_bokeh_apu_front_20210413.bin
 vendor/etc/camera/vidhance_calibration
@@ -977,7 +969,6 @@ vendor/firmware/98_nfcCardSlow_RTP.bin
 vendor/firmware/9_ringTone4_P_RTP.bin
 vendor/firmware/BT_FW.cfg
 vendor/firmware/WIFI_RAM_CODE_soc7_0_1b_1.bin
-vendor/firmware/WIFI_RAM_CODE_soc7_0_1b_t_1.bin
 vendor/firmware/WIFI_RAM_CODE_soc7_0_1c_1.bin
 vendor/firmware/aw8697_haptic.bin
 vendor/firmware/aw8697_rtp_1.bin
@@ -1004,17 +995,12 @@ vendor/firmware/mt6635_fm_v1_coeff.bin
 vendor/firmware/mt6635_fm_v1_patch.bin
 vendor/firmware/remoteproc_scp
 vendor/firmware/soc7_0_ram_bt_1_1_hdr.bin
-vendor/firmware/soc7_0_ram_bt_1_t_1_hdr.bin
 vendor/firmware/soc7_0_ram_bt_1a_1_hdr.bin
 vendor/firmware/soc7_0_ram_bt_1b_1_hdr.bin
-vendor/firmware/soc7_0_ram_bt_1b_t_1_hdr.bin
 vendor/firmware/soc7_0_ram_mcu_1_1_hdr.bin
-vendor/firmware/soc7_0_ram_mcu_1_t_1_hdr.bin
 vendor/firmware/soc7_0_ram_mcu_1a_1_hdr.bin
 vendor/firmware/soc7_0_ram_mcu_1b_1_hdr.bin
-vendor/firmware/soc7_0_ram_mcu_1b_t_1_hdr.bin
 vendor/firmware/soc7_0_ram_wmmcu_1b_1_hdr.bin
-vendor/firmware/soc7_0_ram_wmmcu_1b_t_1_hdr.bin
 vendor/firmware/soc7_0_ram_wmmcu_1c_1_hdr.bin
 vendor/firmware/soc_fm_v1_coeff.bin
 vendor/firmware/soc_fm_v1_patch.bin
@@ -1329,16 +1315,14 @@ vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/AudioLog_dynamic.xml
 vendor/etc/MNL_Config.xml
 vendor/etc/VideoLog_dynamic.xml
-vendor/etc/apdb/APDB_MT6895___W2230
-vendor/etc/apdb/APDB_MT6895___W2230_ENUM
+vendor/etc/apdb/APDB_MT6895___W2152
+vendor/etc/apdb/APDB_MT6895___W2152_ENUM
 vendor/etc/audio_device.xml
 vendor/etc/audio_policy.conf
 vendor/etc/aurisys_config.xml
 vendor/etc/aurisys_config_hifi3.xml
 vendor/etc/cit_param_config.json
 vendor/etc/cust_color.xml
-vendor/etc/cust_color_36.xml
-vendor/etc/cust_color_42.xml
 vendor/etc/default_pd_calibration.bin
 vendor/etc/dolby_vision.cfg
 vendor/etc/ecc_list.xml
@@ -1744,11 +1728,9 @@ vendor/lib64/com.xiaomi.plugin.mifragment.so
 vendor/lib64/com.xiaomi.plugin.misegment.so
 vendor/lib64/com.xiaomi.plugin.rawsuperlight.so
 vendor/lib64/com.xiaomi.plugin.skinbeautifier.so
-vendor/lib64/com.xiaomi.plugin.sr.so
 vendor/lib64/com.xiaomi.plugin.superlowlight.so
 vendor/lib64/com.xiaomi.plugin.supernight.so
 vendor/lib64/com.xiaomi.plugin.swflip.so
-vendor/lib64/com.xiaomi.plugin.tetrassr.so
 vendor/lib64/hw/audio_policy.stub.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/hw/libSoftGatekeeper.so
@@ -1767,15 +1749,10 @@ vendor/lib64/hw/vendor.xiaomi.sensor.citsensorservice@1.1-impl.so
 vendor/lib64/jcos_nq_client-v1.so
 vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/libArcNetMtk.so
-vendor/lib64/libHalSuperSensorServer.so
-vendor/lib64/libHalSuperSensorServerCWrapper.so
 vendor/lib64/libMtkOmxCore.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/libNewMuraTest_new.so
 vendor/lib64/libSMBlemishAnalysis_new.so
-vendor/lib64/libSuperSensor.so
-vendor/lib64/libSuperSensorCPU.so
-vendor/lib64/libSuperSensorProcessor.so
 vendor/lib64/libVkLayer_mtk_rt_sdk.so
 vendor/lib64/lib_eara_io_scndet.so
 vendor/lib64/lib_eara_io_service.so
@@ -1784,7 +1761,6 @@ vendor/lib64/lib_eara_io_timer.so
 vendor/lib64/lib_eara_io_util.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
-vendor/lib64/lib_sr_models.so
 vendor/lib64/libaachaptics.so
 vendor/lib64/libaal_cust.so
 vendor/lib64/libaal_key.so
@@ -1795,7 +1771,6 @@ vendor/lib64/libai_sdr2hdr.so
 vendor/lib64/libaispq.so
 vendor/lib64/libalCFR.so
 vendor/lib64/libalacdec_mtk.so
-vendor/lib64/libalhLDC.so
 vendor/lib64/libapmonitor_vendor.so
 vendor/lib64/libappgamepq.so
 vendor/lib64/libapu_mdw_batch.so
@@ -1941,7 +1916,6 @@ vendor/lib64/librpc.so
 vendor/lib64/librt_extamp_intf.so
 vendor/lib64/libruy.so
 vendor/lib64/libscltm.so
-vendor/lib64/libsdk_sr.so
 vendor/lib64/libsensor_cal.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsimlock.so
